@@ -1,16 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+import { logger } from 'redux-logger';
+import { composeWithDevTools } from 'redux-devtools-extension';
 import App from './containers/App';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
 import 'tachyons';
 
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import { searchRobots } from './reducers';
 
-const store = createStore(searchRobots);
+const store = createStore(
+	searchRobots,
+	composeWithDevTools(applyMiddleware(logger))
+);
 
 ReactDOM.render(
 	<Provider store={store}>
