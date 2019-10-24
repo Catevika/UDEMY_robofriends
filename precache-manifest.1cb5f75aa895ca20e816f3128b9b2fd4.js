@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c973b7895b8bedd8862a28b08f2c65e",
+    "revision": "f06233e73e9c13ac385ba01d3743d83f",
     "url": "/UDEMY_robofriends/index.html"
   },
   {
-    "revision": "959ea35696dc803ff5f8",
+    "revision": "84e5d1e393a0bc22b866",
     "url": "/UDEMY_robofriends/static/css/2.eb45ad44.chunk.css"
   },
   {
-    "revision": "877401d02151cf2bdbc8",
-    "url": "/UDEMY_robofriends/static/css/main.8b6bd99c.chunk.css"
+    "revision": "2cd09d08029f0b1be117",
+    "url": "/UDEMY_robofriends/static/css/main.60b3da01.chunk.css"
   },
   {
-    "revision": "959ea35696dc803ff5f8",
-    "url": "/UDEMY_robofriends/static/js/2.4310c7f6.chunk.js"
+    "revision": "84e5d1e393a0bc22b866",
+    "url": "/UDEMY_robofriends/static/js/2.5827270f.chunk.js"
   },
   {
-    "revision": "877401d02151cf2bdbc8",
-    "url": "/UDEMY_robofriends/static/js/main.343bbfb9.chunk.js"
+    "revision": "2cd09d08029f0b1be117",
+    "url": "/UDEMY_robofriends/static/js/main.348e0e54.chunk.js"
   },
   {
     "revision": "21cbbe0b4a35f956c0aa",
