@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/UDEMY_robofriends/static/css/main.60b3da01.chunk.css",
-    "main.js": "/UDEMY_robofriends/static/js/main.348e0e54.chunk.js",
-    "main.js.map": "/UDEMY_robofriends/static/js/main.348e0e54.chunk.js.map",
+    "main.js": "/UDEMY_robofriends/static/js/main.7f43d024.chunk.js",
+    "main.js.map": "/UDEMY_robofriends/static/js/main.7f43d024.chunk.js.map",
     "runtime-main.js": "/UDEMY_robofriends/static/js/runtime-main.deaa1c3c.js",
     "runtime-main.js.map": "/UDEMY_robofriends/static/js/runtime-main.deaa1c3c.js.map",
     "static/css/2.eb45ad44.chunk.css": "/UDEMY_robofriends/static/css/2.eb45ad44.chunk.css",
-    "static/js/2.5827270f.chunk.js": "/UDEMY_robofriends/static/js/2.5827270f.chunk.js",
-    "static/js/2.5827270f.chunk.js.map": "/UDEMY_robofriends/static/js/2.5827270f.chunk.js.map",
+    "static/js/2.da846eb5.chunk.js": "/UDEMY_robofriends/static/js/2.da846eb5.chunk.js",
+    "static/js/2.da846eb5.chunk.js.map": "/UDEMY_robofriends/static/js/2.da846eb5.chunk.js.map",
     "index.html": "/UDEMY_robofriends/index.html",
-    "precache-manifest.1cb5f75aa895ca20e816f3128b9b2fd4.js": "/UDEMY_robofriends/precache-manifest.1cb5f75aa895ca20e816f3128b9b2fd4.js",
+    "precache-manifest.c8a89787d05cbcf8402620405b577298.js": "/UDEMY_robofriends/precache-manifest.c8a89787d05cbcf8402620405b577298.js",
     "service-worker.js": "/UDEMY_robofriends/service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "/UDEMY_robofriends/static/css/2.eb45ad44.chunk.css.map",
     "static/css/main.60b3da01.chunk.css.map": "/UDEMY_robofriends/static/css/main.60b3da01.chunk.css.map",
@@ -18,8 +18,8 @@
   "entrypoints": [
     "static/js/runtime-main.deaa1c3c.js",
     "static/css/2.eb45ad44.chunk.css",
-    "static/js/2.5827270f.chunk.js",
+    "static/js/2.da846eb5.chunk.js",
     "static/css/main.60b3da01.chunk.css",
-    "static/js/main.348e0e54.chunk.js"
+    "static/js/main.7f43d024.chunk.js"
   ]
 }
