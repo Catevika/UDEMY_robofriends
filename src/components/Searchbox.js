@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Searchbox = ({ searchfield, searchChange }) => {
+	// console.log('Searchbox');
 	return (
 		<div className='pa2'>
 			<input
