@@ -7,11 +7,10 @@ export class Header extends Component {
 	}
 
 	render() {
-		// console.log('Header');
 		return (
 			<Fragment>
 				<h1 className='f2'>Robofriends</h1>;
-				<CounterButton color={'red'} />
+				<CounterButton style={{ color: 'green' }} />
 			</Fragment>
 		);
 	}

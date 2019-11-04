@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CounterButton component expects to render CounterButton component 1`] = `
+"<button id=\\"counter\\" style={{...}} onClick={[Function: bound updateCount]}>
+  Count: 
+  0
+   
+</button>"
+`;

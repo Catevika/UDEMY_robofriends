@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Cardlist from '../components/Cardlist';
+import CardList from '../components/CardList';
 import Searchbox from '../components/Searchbox';
 import Scroll from '../components/Scroll';
 import ErrorBoundary from '../components/ErrorBoundary';
@@ -44,7 +44,7 @@ class App extends Component {
 				<Searchbox searchChange={onSearchChange} />
 				<Scroll>
 					<ErrorBoundary>
-						<Cardlist robots={filteredRobots} />
+						<CardList robots={filteredRobots} />
 					</ErrorBoundary>
 				</Scroll>
 			</div>
