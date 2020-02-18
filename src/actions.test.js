@@ -10,10 +10,11 @@ import * as actions from './actions';
 import configureStore from 'redux-mock-store';
 import thunkMiddleware from 'redux-thunk';
 
+import nock from 'nock';
 const mockStore = configureStore([thunkMiddleware]);
 
 describe('setSearchField', () => {
-	it('should create an action to search robots', () => {
+	it('should create an actions to search robots', () => {
 		const text = 'Wooo';
 		const expectedAction = {
 			type: CHANGE_SEARCH_FIELD,
