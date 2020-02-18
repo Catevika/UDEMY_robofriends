@@ -5,26 +5,25 @@ import * as actions from './actions';
 import configureStore from 'redux-mock-store';
 import thunkMiddleware from 'redux-thunk';
 
-import nock from 'nock';
-const mockStore = configureStore([thunkMiddleware]);
+export const mockStore = configureStore([thunkMiddleware]);
 
 describe('setSearchField', () => {
 	it('should create an actions to search robots', () => {
 		const text = 'Wooo';
-		const expectedcAction = {
+		const expectedAction = {
 			type: CHANGE_SEARCH_FIELD,
 			payload: text
 		};
-		expect(actions.setSearchField(text)).toEqual(expectedcAction);
+		expect(actions.setSearchField(text)).toEqual(expectedAction);
 	});
 
 	it('handles requesting robots API', () => {
 		const store = mockStore();
 		store.dispatch(actions.requestRobots());
 		const action = store.getActions();
-		const expectedcAction = {
+		const expectedAction = {
 			type: REQUEST_ROBOTS_PENDING
 		};
-		expect(action[0]).toEqual(expectedcAction);
+		expect(action[0]).toEqual(expectedAction);
 	});
 });
